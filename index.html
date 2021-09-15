@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>WildLife Figma Project</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!-- 
+		!main part of html :
+	.wrapper>.content>header>.header_logo+.header_content^.content>h2+p+button^^section>h3+p^.slider>.imgBox*3>span+p^^p#amazing+form>input+button^footer>.footer_logo+nav#menu>ul>li*3>a[href=#]^nav#social>ul>li*4>a[href=#]>img
+	 -->
+	<div class="wrapper">
+		<div class="container">
+			<header>
+				<div class="header_logo">
+					<img src="img/logo.png" alt="" class="logo">
+					<span>WildLife</span>
+				</div>
+				<div class="header_content">
+					<ul>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Contacts</a></li>
+						<li><a href="#">
+							<img src="img/search.png" alt="" id="search">
+						</a></li>
+						<button class="ttButton">Sign in</button>
+						<!-- transparent button. This button has transparent background and border. -->
+					</ul>
+				</div>
+			</header>
+			<div class="content">
+				<h2>Survival</h2>
+				<p>	What this means is that we exist 	<br>
+					to help protect our environment 	<br>
+					and do in numbers of ways. You 		<br>
+					can save the planet by donation. 	</p>
+				<button class="bgButton">Donate</button>
+				<!-- background button. This button has orange background and white text. //no border-->
+			</div>
+		</div>
+		<section>
+			<h3>Latest articles</h3>
+			<p>Breaking news from the wild</p>
+		</section>
+		<div class="slider">
+			<div class="imgBox beer">
+				<span>Deer</span>
+				<p id="beer">Naturalist investigation</p>
+			</div>
+			<div class="imgBox">
+				<span>Squirrel</span>
+				<p>Kamikaze squirrels</p>
+			</div>
+			<div class="imgBox">
+				<span>Bird</span>
+				<p>Birds Fight club</p>
+			</div>
+		</div>
+		<p id="amazing">
+			Get notified about new amazing articles
+		</p>
+		<form action="">
+			<input type="text" placeholder="Email">
+			<button class="bgButton send">Send</button>
+		</form>
+		<footer>
+			<div class="footer_logo">
+				<img src="img/logo.png" alt="" class="logo">
+				<span>WildLife</span>
+			</div>
+			<nav id="menu">
+				<ul>
+					<li><a href="#">Articles</a></li>
+					<li><a href="#">About us</a></li>
+					<li><a href="#">Learn more</a></li>
+				</ul>
+			</nav>
+			<nav id="social">
+				<ul>
+					<li><a href="#"><img src="img/facebook.png" 	alt=""></a></li>
+					<li><a href="#"><img src="img/instagram.png" 	alt=""></a></li>
+					<li><a href="#"><img src="img/pinterest.png" 	alt=""></a></li>
+					<li><a href="#"><img src="img/telegram.png" 	alt=""></a></li>
+				</ul>
+			</nav>
+		</footer>
+	</div>
+
+
+</body>
+</html>
